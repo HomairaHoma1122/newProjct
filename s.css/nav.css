@@ -1,0 +1,29 @@
+nav{
+    background-color: peru;
+    color: rgb(209, 206, 199);
+    padding: 3px 3px;
+    display: flex;
+    width: 99%;
+    margin-left: 2px;
+    border-radius: 5px;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 12px auto;
+    margin-left: 12px;
+    font-family: serif;
+}
+nav button{
+    padding: 4px 12px;
+    background-color: rgb(183, 149, 149);
+    border-radius: 5px;
+    border: 0;
+    margin-right: 12px;
+    color: rgb(209, 206, 199);
+}
