@@ -12,22 +12,29 @@
     <div class="n-cad">
     <nav>
         <h1>weekly Activity Work</h1>
-        <button id="bt">ADD WORK</button>
+        <button id="addId">ADD WORK</button>
         </nav>
          </div>
-
-        <div id="mainDiv" class="card">
+ 
+        <div class="card">
+             <div id="eror" style="background-color: red; color: white; height: 40px; padding: 12px; font-size: 25px; text-align: center; padding-top: 4px; align-items: center;"></div>
     <div class="s-card">
-        <form>
+        <form id="mainDiv">
+            <h1 style="background-color: blue; margin-left: 0; margin-right: 0; height: 25px; width: 440px; font-size: medium; color: rgb(240, 236, 236); display: flex; justify-content: center; align-items: center; padding-top: 0; margin-top: 0;">Adding works form for activity</h1>
             <input id="todo" type="text" placeholder="write something">
-            <select name="" id="order">
-                <option value="importenc">Importent</option>
-                <option value="inter">Intermediat</option>
-                <option value="op">Optional</option>
+            <select
+             name="" id="order">
+                <option
+                 value="importenc">Importent</option>
+                <option
+                 value="inter">Intermediat</option>
+                <option
+                 value="op">Optional</option>
             </select>
             <button id="addbtn" class="ok">Save</button>
         </form>
     </div>
    </div>
+  
 </body>
 </html>
